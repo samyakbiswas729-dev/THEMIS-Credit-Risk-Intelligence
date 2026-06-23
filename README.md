@@ -229,7 +229,7 @@ Specializations:
 * Financial Risk Intelligence
 
 ---
-Deployment Version 1: https://themis-credit-risk-intelligence-xbekwwa2q4rlhqbyrghckd.streamlit.app/
+Deployment Version 1: https://themis-credit-risk-intelligence-j6gwxww96bbfery8phswtg.streamlit.app/
 
 
 Deployment Version 2: https://themis-credit-risk-intelligence-xbekwwa2q4rlhqbyrghckd.streamlit.app/
