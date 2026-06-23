@@ -1,0 +1,260 @@
+/* ==========================================
+   THEMIS - GREEK GOD THEME
+========================================== */
+
+/* GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+
+/* ==========================================
+   MAIN APP BACKGROUND
+========================================== */
+
+.stApp {
+
+    background:
+    linear-gradient(
+        rgba(248,241,228,0.92),
+        rgba(248,241,228,0.92)
+    ),
+    url("assets/greek_texture.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/* ==========================================
+   SIDEBAR
+========================================== */
+
+section[data-testid="stSidebar"] {
+
+    background: linear-gradient(
+        180deg,
+        #0b2340 0%,
+        #12345a 50%,
+        #0b2340 100%
+    ) !important;
+
+    border-right: 4px solid #c9a15d !important;
+}
+
+
+/* ==========================================
+   FORCE WHITE SIDEBAR TEXT
+========================================== */
+
+section[data-testid="stSidebar"] * {
+
+    color: #ffffff !important;
+
+    opacity: 1 !important;
+}
+
+
+/* PAGE LINKS */
+
+section[data-testid="stSidebar"] a {
+
+    color: white !important;
+
+    font-size: 16px !important;
+
+    font-weight: 600 !important;
+}
+
+
+/* ACTIVE PAGE */
+
+section[data-testid="stSidebar"] a[aria-current="page"] {
+
+    background: rgba(201,161,93,0.30) !important;
+
+    border-left: 4px solid #c9a15d !important;
+
+    border-radius: 10px !important;
+
+    color: white !important;
+}
+
+
+/* HOVER EFFECT */
+
+section[data-testid="stSidebar"] a:hover {
+
+    background: rgba(255,255,255,0.10) !important;
+
+    color: white !important;
+}
+
+
+/* NUCLEAR OPTION */
+
+[data-testid="stSidebar"] *,
+[data-testid="stSidebarNav"] *,
+[data-testid="stSidebarNavLink"] * {
+
+    color: white !important;
+
+    opacity: 1 !important;
+}
+
+
+/* ==========================================
+   TITLES
+========================================== */
+
+h1 {
+
+    font-family: 'Cinzel', serif !important;
+
+    color: #102f5e !important;
+
+    font-weight: 700 !important;
+
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
+
+h2 {
+
+    font-family: 'Cinzel', serif !important;
+
+    color: #102f5e !important;
+
+    font-weight: 700 !important;
+}
+
+h3 {
+
+    font-family: 'Cinzel', serif !important;
+
+    color: #102f5e !important;
+
+    font-weight: 600 !important;
+}
+
+
+/* ==========================================
+   METRIC CARDS
+========================================== */
+
+div[data-testid="metric-container"] {
+
+    background: rgba(255,255,255,0.85);
+
+    border: 2px solid #c9a15d;
+
+    border-radius: 18px;
+
+    padding: 20px;
+
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+
+/* ==========================================
+   INPUT BOXES
+========================================== */
+
+.stSelectbox > div > div,
+.stNumberInput > div > div {
+
+    background: rgba(255,255,255,0.90);
+
+    border-radius: 12px;
+
+    border: 1px solid #c9a15d;
+}
+
+
+/* ==========================================
+   BUTTONS
+========================================== */
+
+.stButton > button {
+
+    background: linear-gradient(
+        90deg,
+        #c9a15d,
+        #e5c07b
+    ) !important;
+
+    color: #0b2340 !important;
+
+    font-weight: 700 !important;
+
+    border-radius: 12px !important;
+
+    border: none !important;
+
+    padding: 10px 30px !important;
+}
+
+.stButton > button:hover {
+
+    transform: scale(1.03);
+
+    transition: 0.3s;
+}
+
+
+/* ==========================================
+   SUCCESS BOX
+========================================== */
+
+.stSuccess {
+
+    border-left: 6px solid #2e8b57 !important;
+
+    border-radius: 12px !important;
+}
+
+
+/* ==========================================
+   WARNING BOX
+========================================== */
+
+.stWarning {
+
+    border-left: 6px solid #d4a017 !important;
+
+    border-radius: 12px !important;
+}
+
+
+/* ==========================================
+   ERROR BOX
+========================================== */
+
+.stError {
+
+    border-left: 6px solid #b22222 !important;
+
+    border-radius: 12px !important;
+}
+
+
+/* ==========================================
+   DIVIDERS
+========================================== */
+
+hr {
+
+    border-top: 2px solid #c9a15d !important;
+}
+
+
+/* ==========================================
+   PAGE CONTAINER
+========================================== */
+
+.block-container {
+
+    padding-top: 2rem;
+
+    padding-left: 3rem;
+
+    padding-right: 3rem;
+}
